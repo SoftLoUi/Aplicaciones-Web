@@ -1,0 +1,111 @@
+body{
+    height: 950px;
+    width: 1000px;
+    padding: 250px;
+    
+}
+
+nav{
+    height: 100px;
+    width: 1000px;
+    background-color: green;
+    border: 3px solid black;
+}
+
+.box-nav{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    width: 168px;
+    justify-content: center;
+    margin-left: 25px;
+    background-color: white;
+    margin-top: 20px;
+    align-items: center;
+    font-family: Verdana, sans-serif;
+    size: 30px; 
+    text-align: center;
+    display: inline-block;
+      
+}
+
+header{
+    height: 300px;
+    width: 1000px;
+    background-color: blue;
+    justify-content: center;
+    
+    display: flex;
+    align-items: flex-start;
+    border: 3px solid black;
+}
+
+.banner{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 720px;
+    height: 250px;
+    margin-top: 25px;
+    font-family: Verdana, sans-serif;
+    size: 30px; 
+    text-align: center;
+}
+
+.section1{ 
+    width: 280px;
+    height: 300px;
+    margin-top: 5px;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.section1-font{
+    width: 260px;
+    height: 70px;   
+    text-align:center;
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    size: 30px; 
+    text-align: center;
+}
+
+main{
+    height: 500px;
+    width: 1000px;
+    background-color: chocolate; 
+    display: flex;
+    align-items: flex-start;
+    border: 3px solid black;
+}
+
+.aside{
+    width: 200px;
+    height: 480px;
+    background-color: white;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-family: Verdana, sans-serif;
+    size: 30px; 
+    text-align: center;
+}
+
+.article{
+    width: 550px;
+    height: 480px;
+    background-color: white;
+    margin-left: 12px; 
+    margin-top: 10px;  
+    font-family: Verdana, sans-serif;
+    size: 30px; 
+    text-align: center;
+}
+
+footer{
+    height: 50px;
+    width: 1000px;
+    background-color: orange;
+    border: 3px solid black;
+}
